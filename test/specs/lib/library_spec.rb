@@ -43,7 +43,7 @@ describe SchemaEvolutionManager::Library do
   end
 
   it "SchemaEvolutionManager::Library.git_assert_tag_exists" do
-    SchemaEvolutionManager::Library.git_assert_tag_exists("0.9.0")
+    SchemaEvolutionManager::Library.git_assert_tag_exists("0.9.10")
     lambda {
       SchemaEvolutionManager::Library.git_assert_tag_exists("0.0.0")
     }.should raise_error(RuntimeError)

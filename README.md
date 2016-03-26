@@ -1,5 +1,7 @@
 # Schema Evolution Manager (sem)
 
+https://travis-ci.org/mbryzek/schema-evolution-manager.svg?branch=master
+
 ## Intended Audience
 
   - Engineers who regularly manage the creation of scripts to update the
